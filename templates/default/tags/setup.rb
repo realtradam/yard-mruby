@@ -6,5 +6,5 @@ def init
 end
 
 def param
-  super || tag(:param) if object.type == :function
+  super || tag(:param) if object.type == :method
 end
